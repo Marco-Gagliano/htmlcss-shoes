@@ -6,42 +6,6 @@
   box-sizing: border-box;
 }
 
-/* HEADER */
-
-
-nav ul {
-  position: absolute;
-  top: 45px;
-  right: 0;
-}
-
-nav ul li {
-  list-style: none;
-  display: inline-block;
-  background-color: white;
-  line-height: 50px;
-  margin-right: 30px;
-  border-radius: 50px;
-}
-
-nav ul li a{
-  display: inline-block;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  padding: 0 20px;
-}
-
-nav ul li a:hover {
-  background-color: lightgrey;
-  border-radius: 50%;
-
-}
-
-nav ul a:active {
-  text-shadow: 7px 7px 7px black;
-}
-
 
 /* MAIN */
 
@@ -60,6 +24,40 @@ nav ul a:active {
 }
 
 
+/* MAIN - MENU' */
+
+nav ul {
+  position: absolute;
+  top: 45px;
+  right: 0;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  line-height: 50px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+nav ul li a:hover {
+  background-color: lightgrey;
+}
+
+nav ul a:active {
+  text-shadow: 7px 9px 9px black;
+}
+
+
 /* MAIN - SHOES 1 */
 
 #shoes-1 {
@@ -75,7 +73,6 @@ nav ul a:active {
 
 
 /* MAIN - SHOES 2 */
-
 
 .text-shoes-2 {
   text-transform: uppercase;
@@ -101,4 +98,3 @@ nav ul a:active {
 #shoes-3 {
   background-color: yellow;
 }
-
