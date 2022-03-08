@@ -1,3 +1,5 @@
+/* GENERAL PRESETS */
+
 * {
   margin: 0;
   padding: 0;
@@ -7,41 +9,92 @@
 /* HEADER */
 
 
-/* MAIN */
-
-section {
-
+nav ul {
+  position: absolute;
+  top: 45px;
+  right: 25px;
 }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: white;
+  line-height: 50px;
+  margin-right: 30px;
+  border-radius: 50px;
+}
+
+nav ul li a{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  padding: 0 20px;
+}
+
+
+nav ul li a:hover{
+  background-color: darkgrey;
+}
+
+
+
+/* MAIN */
 
 .box {
   width: calc(100% - 20px);
   height: calc(100vh - 20px);
   margin: 0 10px auto;
+  position: relative;
 }
 
-.text-shoes-1 h1 {
+.product {
   position: absolute;
-  top: 75%;
-  right: 7%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+/* MAIN - SHOES 1 */
+
+#shoes-1 {
+  background-color: red;
+}
+
+.text-shoes-1 {
   text-transform: uppercase;
   color: yellow;
   text-align: center;
   font-size: 55px;
 }
 
-#shoes-1 {
-  background-image: url(../img/01.png);
-  background-color: red;
-  background-size: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
 
+/* MAIN - SHOES 2 */
+
+
+.text-shoes-2 {
+  text-transform: uppercase;
+  color: yellow;
+  text-align: center;
+  font-size: 55px;
 }
 
-.shoes-text h1 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(-50% -50%);
+#shoes-2 {
+  background-color: green;
 }
+
+
+/* MAIN - SHOES 3 */
+
+.text-shoes-3 {
+  text-transform: uppercase;
+  color: green;
+  text-align: center;
+  font-size: 55px;
+}
+
+#shoes-3 {
+  background-color: yellow;
+}
+
